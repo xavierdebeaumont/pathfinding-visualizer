@@ -22,10 +22,10 @@ const PathfindingVisualizer = (props) => {
   }, []);
 
   return (
-    <div className={styles.grid}>
+    <div>
       {nodes.map((row, rowIndex) => {
         return (
-          <div>
+          <div className={styles.grid}>
             {row.map((node, nodeIndex) => (
               <Node />
             ))}
