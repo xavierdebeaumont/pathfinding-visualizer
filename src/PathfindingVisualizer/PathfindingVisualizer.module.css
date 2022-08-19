@@ -1,5 +1,4 @@
 .grid {
-  display: grid;
-  row-gap: 0px;
-  column-gap: 0px;
+  display: flex;
+  flex-direction: row;
 }
