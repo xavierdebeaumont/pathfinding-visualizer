@@ -1,4 +1,8 @@
 .grid {
+
+}
+
+.gridRow {
   display: flex;
   flex-direction: row;
 }
